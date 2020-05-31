@@ -1,5 +1,54 @@
-h1{
-    text-align: center;
-    color: rebeccapurple;
-    border-style: outset;
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+html{
+    min-height: 100%;
+    overflow: hidden;
+  }
+  body{
+    height: calc(100vh - 8em);
+    padding: 4em; 
+    background-color: rgb(25,25,25);  
+  }
+#title{
+    text-align: left;
+    font-size: larger;
+    font-weight: 100;
+    color: grey;
+    font-style: oblique;
+    
 }
+#title:hover{
+    text-align: left;
+    font-size: larger;
+    font-weight: 100;
+    color: red;
+    font-style: unset;
+}
+
+.textline{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    color: whitesmoke;
+    font-family: 'Anonymous Pro', monospace;  
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+.writter{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 16em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: whitesmoke;}
+    to{border-right-color: transparent;}
+  }
