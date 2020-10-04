@@ -9,9 +9,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/7ffd75578a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <a class="navbar-brand" href="#"> 
       <img src="mrdev.png" alt="Logo" style="width: 40px;">
     </a>
@@ -25,14 +26,84 @@
       <li class="nav-item">
         <a class="nav-link" href="#portfolio">Portfolio</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Reviews">Reviews</a>
+      </li>
     </ul>
   </nav>
-  <div class="progress">
-    <div class="progress-bar" style="width: 100%;"></div>
-  </div>
-  <div class="container p-3 my-3 bg-primary text-white">
-    <h1>MrDev official website is still in development</h1>
-    <p>No worries People you can still trust my services and my offers , my spigot plugins will never make you disapointed . If not then wait a few days for the release of my portfolio website</p>
-  </div>
+  <script type="text/javascript" src='script.js'></script>
+  <header class="header">
+    <div class="overlay">
+      <div class="container">
+        <div class="description">
+          <h1>MrDev </h1>
+          <p> Hi I'm MrDev . A developer who worked with spigot java developement for years click on the button bellow for more details</p>
+        <a class="btn btn-outline-secondary btn-lg" href="#whyme">Why choose me</a>
+       </div>
+      </div>
+    </div>
+  </header>
+  <div class="whyme">
+    <div class="container pr-4">
+    <h1 class="text-center" style="color: #18aff5;">Why choose me</h1>
+     <div class="row">
+      <div class="col-md-4 col-lg-4 col-sm-12">
+       <div class="card">
+        <div class="card-img">
+         <img src="Java.png" class="img-fluid">
+        </div>
+        
+        <div class="card-body">
+        <h4 class="card-title">Experience with Java</h4>
+         <p class="card-text">
+         Have been developing with java 8 for over 4 years
+         </p>
+        </div>
+       </div>
+      </div>
+      <div class="col-md-4 col-lg-4 col-sm-12">
+       <div class="card">
+        <div class="card-img">
+         <img src="deal.png" class="img-fluid">
+        </div>
+        
+        <div class="card-body"><h4>Good deals and prices</h4>
+         <p class="card-text">
+          I offer affordable prices depending on your plugin's complexity and size starting at FREE(vouch) for small projects
+         </p>
+        </div>
+       </div>
+      </div>
+      <div class="col-md-4 col-lg-4 col-sm-12">
+       <div class="card">
+        <div class="card-img">
+         <img src="available.jpg" class="img-fluid">
+        </div>
+        
+        <div class="card-body">
+        <h4 class="card-title">Available and fast replies</h4>
+         <p class="card-text">
+           I'm often available on Discord and I respond quickly for your needs
+         </p>
+        </div>
+       </div>
+      </div>
+      <div class="col-md-4 col-lg-4 col-sm-12">
+        <div class="card">
+         <div class="card-img">
+          <img src="spigot.jpg" class="img-fluid">
+         </div>
+         
+         <div class="card-body">
+         <h4 class="card-title">High Quality plugins</h4>
+          <p class="card-text">
+            Been working with spigotAPI for 2 years and I can offer you high quality plugins
+          </p>
+         </div>
+        </div>
+       </div>
+     </div>
+    </div>
+   </div>
 </body>
 </html>
